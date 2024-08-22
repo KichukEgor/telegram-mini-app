@@ -28,7 +28,7 @@ export const Product = () => {
     title: item.title,
     date: item.date,
     horoscope: data.horoscope,
-    src: `/${data.sign}.png`,
+    src: `./assets/images/${data.sign}.png`,
   };
 
   return (

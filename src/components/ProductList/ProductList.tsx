@@ -28,7 +28,7 @@ export const ProductList = () => {
   return (
       <div className="product-list">
         {horoscopes.map((product, index) => (
-            <Link key={index} to={`/product/${product.id}`} state={{ product: product }}>
+            <Link key={index} to={`./product/${product.id}`} state={{ product: product }}>
               <ProductItem
                   key={index}
                   title={product.title}

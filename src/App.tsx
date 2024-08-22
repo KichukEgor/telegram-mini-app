@@ -1,6 +1,5 @@
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import { Header } from "./components/Header/Header";
 import { Container } from "./components/Container/Container";
 import { ProductList } from "./components/ProductList/ProductList";
@@ -10,8 +9,6 @@ import { useTelegram } from "./hooks/useTelegram";
 import "./App.css";
 
 function App() {
-  // informs the Telegram app that the Web App is ready to be displayed
-  Telegram.WebApp.ready()
   const { tg } = useTelegram();
   const { pathname } = useLocation();
 
@@ -38,9 +35,9 @@ function App() {
     <main className="App">
       <Header />
       <Container>
-        <Routes>
-          <Route index element={<ProductList />} />
-          <Route path="/product/:id" element={<Product />} />
+        <Routes >
+          <Route index path="/telegram-mini-app" element={<ProductList />} />
+          <Route path="/telegram-mini-app/product/:id" element={<Product />} />
         </Routes>
       </Container>
     </main>

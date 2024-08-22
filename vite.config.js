@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import fs from "fs";
+// import fs from "fs";
 
 export default defineConfig({
   plugins: [react()],
@@ -12,9 +12,9 @@ export default defineConfig({
       host: 'tg-mini-app.local',
       port: 443,
     },
-    https: {
+    /*https: {
       key: fs.readFileSync('./.cert/localhost-key.pem'),
       cert: fs.readFileSync('./.cert/localhost.pem'),
-    },
+    },*/
   },
 })

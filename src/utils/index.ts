@@ -38,7 +38,7 @@ export const normalizedData = (
       title: item.title,
       date: item.date,
       description: value,
-      src: `/assets/images/${key}.png`,
+      src: `./assets/images/${key}.png`,
     });
   }
 
