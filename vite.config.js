@@ -4,6 +4,7 @@ import fs from "fs";
 
 export default defineConfig({
   plugins: [react()],
+  base: '/telegram-mini-app/',
   server: {
     port: 443,
     host: "0.0.0.0",
