@@ -1,8 +1,19 @@
-# React + Vite
+# Telegram Mini App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+The **Telegram Mini App** is a web application built with React, Vite, and TypeScript. This project demonstrates a mini Telegram bot interface. The app integrates with Telegram to offer various features and utilities, enhancing user interaction with Telegram content.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Telegram Bot Integration**: Access and interact with the Telegram bot directly within the app. The bot can be accessed via [@zodiac_react_bot](https://t.me/zodiac_react_bot).
+
+## Technologies
+
+- **Frontend**: React, Vite, TypeScript
+- **Styling**: CSS/SCSS
+- **Deployment**: GitHub Pages for hosting the live version
+
+## Live Demo
+
+You can view the live version of the application at: [https://kichukegor.github.io/telegram-mini-app/](https://kichukegor.github.io/telegram-mini-app/)
