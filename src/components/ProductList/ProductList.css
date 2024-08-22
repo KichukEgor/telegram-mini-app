@@ -1,5 +1,6 @@
 .product-list {
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
+  display: flex;
+  flex-wrap: wrap;
+/*  grid-template-columns: repeat(2, 50%);*/
   gap: 10px;
 }
