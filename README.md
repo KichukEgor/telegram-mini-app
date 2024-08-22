@@ -11,7 +11,7 @@ The **Telegram Mini App** is a web application built with React, Vite, and TypeS
 ## Technologies
 
 - **Frontend**: React, Vite, TypeScript
-- **Styling**: CSS/SCSS
+- **Styling**: CSS
 - **Deployment**: GitHub Pages for hosting the live version
 
 ## Live Demo
